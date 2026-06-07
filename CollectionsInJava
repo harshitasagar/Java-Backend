@@ -1,5 +1,5 @@
-Needed for a Collection Framework
-Let's understand this with an example of adding an element to a hashtable and a vector. 
+//Needed for a Collection Framework
+//Let's understand this with an example of adding an element to a hashtable and a vector. 
 import java.io.*;
 import java.util.*;
 
