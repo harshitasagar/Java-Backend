@@ -6,14 +6,30 @@ In Java, the Collection interface (java.util.Collection) and Map interface (java
 Needed for a Collection Framework
 Before the Collection Framework (before JDK 1.2), Java used Arrays, Vectors and Hashtables to group objects, but they lacked a common interface. Each had a separate implementation, making usage inconsistent and harder for developers to learn and maintain.
 
-**Advantages of the Java Collection Framework**
+Advantages of the Java Collection Framework
+
 Since the lack of a collection framework gave rise to the above set of disadvantages, the following are the advantages of the collection framework. 
 
-Consistent API: Interfaces like List, Set, and Map have common methods across classes (ArrayList, LinkedList, etc.).
-Less Coding Effort: Developers focus on usage, not designing data structures—supports OOP abstraction.
-Better Performance: Offers fast, reliable implementations of data structures, improving speed and quality of code.
+1.Consistent API: Interfaces like List, Set, and Map have common methods across classes (ArrayList, LinkedList, etc.).
+2.Less Coding Effort: Developers focus on usage, not designing data structures—supports OOP abstraction.
+3.Better Performance: Offers fast, reliable implementations of data structures, improving speed and quality of code.
 Hierarchy of the Collection Framework in Java
 The Collection interface extends Iterable and serves as the root, defining common methods inherited by all collection classes.
+
+Interfaces that Extend the Java Collections Interface
+
+The collection framework contains multiple interfaces where every interface is used to store a specific type of data. The following are the interfaces present in the framework. 
+
+1. Iterable Interface
+Iterable interface is the root of the Collection Framework. It is extended by the Collection interface, making all collections inherently iterable. Its primary purpose is to provide an Iterator to traverse elements, defined by its single abstract method iterator().
+
+Iterator iterator(); 
+
+2. Collection Interface
+Collection interface extends Iterable and serves as the foundation of the Collection Framework. It defines common methods like add(), remove(), and clear(), ensuring consistency and reusability across all collection implementations.
+
+3. List Interface
+List interface extends the Collection interface and represents an ordered collection that allows duplicate elements. It is implemented by classes like ArrayList, Vector, and Stack. Since all these classes implement List, a list object can be instantiated using any of them
 
 Collection
 Heirarchy of collection
