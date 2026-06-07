@@ -1,0 +1,19 @@
+Collections in Java
+A collection in Java is a group of individual objects that are treated as a single unit. In Java, a separate framework named the "Collection Framework" was defined in JDK 1.2, which contains all the Java Collection Classes and interfaces. 
+
+In Java, the Collection interface (java.util.Collection) and Map interface (java.util.Map) are the two main “root” interfaces of Java collection classes.
+
+Needed for a Collection Framework
+Before the Collection Framework (before JDK 1.2), Java used Arrays, Vectors and Hashtables to group objects, but they lacked a common interface. Each had a separate implementation, making usage inconsistent and harder for developers to learn and maintain.
+
+**Advantages of the Java Collection Framework**
+Since the lack of a collection framework gave rise to the above set of disadvantages, the following are the advantages of the collection framework. 
+
+Consistent API: Interfaces like List, Set, and Map have common methods across classes (ArrayList, LinkedList, etc.).
+Less Coding Effort: Developers focus on usage, not designing data structures—supports OOP abstraction.
+Better Performance: Offers fast, reliable implementations of data structures, improving speed and quality of code.
+Hierarchy of the Collection Framework in Java
+The Collection interface extends Iterable and serves as the root, defining common methods inherited by all collection classes.
+
+Collection
+Heirarchy of collection
