@@ -31,5 +31,3 @@ Collection interface extends Iterable and serves as the foundation of the Collec
 3. List Interface
 List interface extends the Collection interface and represents an ordered collection that allows duplicate elements. It is implemented by classes like ArrayList, Vector, and Stack. Since all these classes implement List, a list object can be instantiated using any of them
 
-Collection
-Heirarchy of collection
